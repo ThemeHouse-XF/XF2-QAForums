@@ -1,0 +1,49 @@
+<xf:macro name="post_below_threshold" arg-post="!" arg-thread="!">
+	<xf:css src="message.less" />
+	<div class="message message--belowPointThreshold message--post{{ $post.isIgnored() ? ' is-ignored' : '' }}{{ $post.isUnread() ? ' is-unread' : '' }} js-post js-inlineModContainer"
+		 data-author="{{ $post.User.username ?: $post.username }}"
+		 data-content="post-{$post.post_id}">
+
+		<span class="u-anchorTarget" id="post-{$post.post_id}"></span>
+		<div class="message-inner">
+			<xf:macro template="thqaforums_post_macros_controls" name="cell_controls" arg-post="{$post}" arg-thread="{$thread}" />
+			<div class="message-cell message-cell--user">
+				<xf:macro template="message_macros" name="user_info" arg-user="{$post.User}" arg-fallbackName="{$post.username}" />
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="message-attribution">
+					<ul class="listInline listInline--bullet message-attribution-main">
+						<li><a href="{{ link('threads/post', $thread, {'post_id': $post.post_id}) }}" class="u-concealed" rel="nofollow"><xf:date time="{$post.post_date}" /></a></li>
+						<li><xf:username user="{$post.User}" defaultname="{$post.username}" class="u-concealed" /></li>
+					</ul>
+				</div>
+
+				<div class="messageNotice">
+					<xf:macro name="notice" />
+
+					<a href="{{ link('posts/show', $post) }}" class="u-jsOnly" data-xf-click="inserter" data-replace="[data-content=post-{$post.post_id}]">{{ phrase('show...') }}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</xf:macro>
+
+<xf:macro name="notice">
+	<ul class="listInline listInline--bullet listInline--selfInline">
+		<li>{{ phrase('th_post_below_point_threshold_qaForum') }}</li>
+	</ul>
+</xf:macro>
+
+<xf:macro name="after_first_post" arg-thread="!" arg-view="!">
+	<xf:if is="$view === 'date' && $xf.options.thqaforums_showBestAnswerBelowFirstPostDateSort.enabled && $thread.th_answered_qaforum">
+		<xf:if is="$xf.options.thqaforums_showBestAnswerBelowFirstPostDateSort.linkOnly">
+			<div class="block-rowMessage block-rowMessage--success">
+				<a href="{{ link('posts', $thread.BestAnswer) }}">{{ phrase('thqaforums_view_xs_answer', {
+						"username": $thread.BestAnswer.username
+					}) }}</a>
+			</div>
+			<xf:else />
+			<xf:macro template="post_macros" name="post" arg-post="{$thread.BestAnswer}" arg-thread="{$thread}" />
+		</xf:if>
+	</xf:if>
+</xf:macro>

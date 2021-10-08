@@ -1,0 +1,1 @@
+{normalized} points | {up_votes} up votes | {down_votes} down votes

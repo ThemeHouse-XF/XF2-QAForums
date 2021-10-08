@@ -1,0 +1,2 @@
+This is the default thread prefix to use for question threads. Selecting/deselecting this prefix will also automatically select/deselect the question status checkbox when creating/editing a thread.<br />
+<b>Note:</b> If the user selects their own prefix or the above prefix is not available in the forum a thread is being created in, it will not be applied.

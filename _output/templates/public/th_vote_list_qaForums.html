@@ -1,0 +1,28 @@
+<xf:title>{{ phrase('th_members_who_voted_on_message_x_qaForums', {'position': $post.position}) }}</xf:title>
+
+<xf:breadcrumb source="$breadcrumbs" />
+
+<div class="block">
+	<div class="block-container js-VoteList-post{$id}">
+		<ol class="block-body">
+			<xf:foreach loop="$votes" value="$vote">
+				<li class="block-row block-row--separated">
+					<xf:macro template="member_list_macros" name="item"
+							  arg-user="{$vote.User}"
+							  arg-extraDataBig="1"
+							  arg-extraData="{{ ($vote.vote_type == 'up' ? phrase('th_up_vote_qaForums') : phrase('th_down_vote_qaForums')) }}" />
+				</li>
+			</xf:foreach>
+		</ol>
+		<xf:if is="$hasNext">
+			<div class="block-footer">
+				<span class="block-footer-controls"><xf:button href="{{ link('posts/qa-votes', $post, {'page': $page + 1}) }}"
+															   data-xf-click="inserter"
+															   data-replace=".js-VoteList-post{$id}"
+															   data-scroll-target="< .overlay">
+					{{ phrase('continue...') }}
+				</xf:button></span>
+			</div>
+		</xf:if>
+	</div>
+</div>

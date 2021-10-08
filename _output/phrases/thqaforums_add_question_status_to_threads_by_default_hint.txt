@@ -1,0 +1,1 @@
+If a user has the "Add question status" permission, threads in this forum will be question threads by default. If a user does not have the "Remove question status" permission, the question status will not be able to be changed.

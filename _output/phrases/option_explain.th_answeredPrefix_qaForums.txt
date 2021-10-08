@@ -1,0 +1,2 @@
+This is the default thread prefix to be applied after a thread has the best answer marked. Selecting/deselecting this prefix will also automatically select/deselect the question status checkbox when creating/editing a thread.<br />
+<b>Note:</b> If this prefix is not available in the forum containing the thread, the prefix will not be applied. If a prefix is selected, this <u>will</u> overwrite any existing prefix on the thread.

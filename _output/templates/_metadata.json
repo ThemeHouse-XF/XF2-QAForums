@@ -1,0 +1,152 @@
+{
+    "admin/th_forum_edit_qaForums.html": {
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "09f7cbf3fe13644f4d13288ddc50eeac"
+    },
+    "admin/th_helper_criteria_content_qaForums.html": {
+        "version_id": 1010132,
+        "version_string": "1.1.1 Beta 2",
+        "hash": "d5626a6d5891a9f24b0f964f3c82fac7"
+    },
+    "admin/th_uninstallAddons_qaForum.html": {
+        "version_id": 1000631,
+        "version_string": "1.0.6 Beta 1",
+        "hash": "50c664f303e2c46d08b18809ef1b5268"
+    },
+    "admin/thqaforums_helper_thread_search_criteria.html": {
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "4564ddb0b2ff1b5f05539bdad80f75c0"
+    },
+    "admin/thqaforums_option_template_showBestAnswerBelowFirstPostDateSort.html": {
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "411e8a36bacc79ab2611b7cfa1201219"
+    },
+    "admin/thqaforums_tools_rebuild_after_users.html": {
+        "version_id": 1010073,
+        "version_string": "1.1.0.3",
+        "hash": "f63fa83cf8b86ac8c7768f40210d897d"
+    },
+    "admin/widget_def_options_th_unanswered_qaForums.html": {
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "abba2754ae065e6f456243f24527a5e3"
+    },
+    "admin/widget_def_options_thqaforums_lau.html": {
+        "version_id": 1000870,
+        "version_string": "1.0.8",
+        "hash": "02a041412eca2866105be54ba5548ad0"
+    },
+    "public/alert_post_best_answer.html": {
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "b0cdad1a8fb32ba992b27581d2172b6c"
+    },
+    "public/alert_post_thqa_vote.html": {
+        "version_id": 1010431,
+        "version_string": "1.1.4 Beta 1",
+        "hash": "3a02e099529a4579a8e247e60d9723fb"
+    },
+    "public/th_message_macros_extras_qaForums.html": {
+        "version_id": 1000470,
+        "version_string": "1.0.4",
+        "hash": "5214fb7f1594893b36f9b22d511c41bf"
+    },
+    "public/th_post_macros_acceptLink_qaForums.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b9a7f1c3fef2cd4f1536510c437c1538"
+    },
+    "public/th_post_macros_qaForum.html": {
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "2ff1eaea644871f88c59f643cac4c9ad"
+    },
+    "public/th_post_vote_count_qaForums.html": {
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "44dcec6ed9c1b0c6359da2142a3efd17"
+    },
+    "public/th_qaControl_macros_qaForum.html": {
+        "version_id": 1010331,
+        "version_string": "1.1.3 Beta 1",
+        "hash": "60160fc568ba150e95c1cd976d973e55"
+    },
+    "public/th_qaForums.less": {
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "c4e9a76a3b819968a124a69be896d505"
+    },
+    "public/th_qa_view_qaForums.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "public/th_structured_list_status_qaForums.less": {
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "01f4d93e6cbfd83692929779ac48ed30"
+    },
+    "public/th_thread_list_macros_answeredIcon_qaForums.html": {
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "a4f64cb3182f9722f7252e835e2f69cc"
+    },
+    "public/th_thread_view_firstPost_qaForums.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "a4ff6faf65c4954234ed99e9fbad8515"
+    },
+    "public/th_thread_view_top_qaForums.html": {
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "4f2fa8d00f2fba81accb47a3c65c74f1"
+    },
+    "public/th_thread_view_viewToggle_qaForums.html": {
+        "version_id": 1000593,
+        "version_string": "1.0.5 Patch Level 3",
+        "hash": "ac15232750c6980287594ea409789783"
+    },
+    "public/th_vote_list_qaForums.html": {
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "5cbcb372c5214a29aff59dc55043f402"
+    },
+    "public/thqaforums_member_best_answers.html": {
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "fcb69cc0d13b20cb66487fcd61b70b13"
+    },
+    "public/thqaforums_post_macros_controls.html": {
+        "version_id": 1010331,
+        "version_string": "1.1.3 Beta 1",
+        "hash": "c8fff385a5ecfa0a3be465e7a1b99fc5"
+    },
+    "public/thqaforums_thread_list_filters.html": {
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "4d2830f09b6fd33989b0a0ae3d5151e6"
+    },
+    "public/thqaforums_thread_list_macros.html": {
+        "version_id": 1010470,
+        "version_string": "1.1.4",
+        "hash": "c981d6b0609fc49b70f1f1f46621696a"
+    },
+    "public/thqaforums_thread_view_macros.html": {
+        "version_id": 1010493,
+        "version_string": "1.1.4 Patch Level 3",
+        "hash": "81434a1db185bda397a1a34c9bedc418"
+    },
+    "public/thqaforums_widget_latest_answerers.html": {
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "2ca12c981788fd47fcddbc7a6127da62"
+    },
+    "public/thqaforums_widget_latest_answerers.less": {
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "c9a0a6368cb26c5d8fd84bc1a5c47437"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "from_class": "ThemeHouse\\UserImprovements\\Pub\\Controller\\TrophyCategory",
+    "to_class": "ThemeHouse\\QAForums\\ThemeHouse\\UserImprovements\\Pub\\Controller\\TrophyCategory",
+    "execute_order": 10,
+    "active": true
+}

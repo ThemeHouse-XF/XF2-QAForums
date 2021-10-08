@@ -1,0 +1,19 @@
+{
+    "legacy_addon_id": "",
+    "title": "[TH] Question & Answer Forums",
+    "description": "A better layout for question based forums. Allows users to up/down vote answers, and allows the OP to mark an answer as the best answer.",
+    "version_id": 1010511,
+    "version_string": "1.1.5 Alpha 1",
+    "dev": "ThemeHouse",
+    "dev_url": "https://www.themehouse.com",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2010010,
+            "XenForo 2.1.0+"
+        ]
+    },
+    "icon": "icon.png"
+}

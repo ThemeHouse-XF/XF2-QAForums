@@ -1,0 +1,62 @@
+<xf:macro name="filterbar" arg-filters="!">
+    <xf:if is="$filters.thqa_status">
+        <li><a href="{{ link('forums', $forum, $filters|replace('thqa_status', null)) }}"
+               class="filterBar-filterToggle" data-xf-init="tooltip" title="{{ phrase('remove_this_filter')|for_attr }}">
+            <span class="filterBar-filterToggle-label">{{ phrase('thqafroums_question_status:') }}</span>
+            {{ $filters.thqa_status == 'answered' ? phrase('thqaforums_answered') : phrase('thqaforums_unanswered') }}</a></li>
+    </xf:if>
+</xf:macro>
+
+<xf:macro name="filters" arg-filters="!">
+    <div class="menu-row menu-row--separated">
+        <label for="ctrl_thqa_status">{{ phrase('thqaforums_question_status:') }}</label>
+        <div class="u-inputSpacer">
+            <xf:select name="thqa_status" value="{$filters.thqa_status}"
+                       id="ctrl_thqa_question_status">
+                <xf:option checked="{{ !$filters.thqa_status }}">
+                    {{ phrase('thqaforums_all_threads') }}
+                </xf:option>
+                <xf:option value="question">
+                    {{ phrase('thqaforums_only_question_threads') }}
+                </xf:option>
+                <xf:option value="normal">
+                    {{ phrase('thqaforums_only_normal_threads') }}
+                </xf:option>
+            </xf:select>
+        </div>
+    </div>
+    <div class="menu-row menu-row--separated">
+        <label for="ctrl_thqa_answer_state">{{ phrase('thqaforums_answer_state:') }}</label>
+        <div class="u-inputSpacer">
+            <xf:select name="thqa_answer_status" value="{$filters.thqa_answer_status}"
+                       id="ctrl_thqa_answer_state">
+                <xf:option checked="{{ !$filters.thqa_answer_status }}">
+                    {{ phrase('thqaforums_all_threads') }}
+                </xf:option>
+                <xf:option value="unanswered">
+                    {{ phrase('thqaforums_unsolved_questions') }}
+                </xf:option>
+                <xf:option value="answered">
+                    {{ phrase('thqaforums_solved_questions') }}
+                </xf:option>
+            </xf:select>
+        </div>
+    </div>
+    <div class="menu-row menu-row--separated">
+        <label for="ctrl_thqa_reply_state">{{ phrase('thqaforums_reply_state:') }}</label>
+        <div class="u-inputSpacer">
+            <xf:select name="thqa_reply_state" value="{$filters.thqa_reply_state}"
+                id="ctrl_thqa_reply_state">
+                <xf:option checked="{{ !$filters.thqa_reply_state }}">
+                    {{ phrase('thqaforums_all_threads') }}
+                </xf:option>
+                <xf:option value="has_reply">
+                    {{ phrase('thqaforums_only_threads_with_replies') }}
+                </xf:option>
+                <xf:option value="no_reply">
+                    {{ phrase('thqaforums_only_threads_with_no_replies') }}
+                </xf:option>
+            </xf:select>
+        </div>
+    </div>
+</xf:macro>

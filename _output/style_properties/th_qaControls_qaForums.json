@@ -1,0 +1,26 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Q&A Controls",
+    "description": "",
+    "property_type": "css",
+    "css_components": [
+        "text",
+        "background",
+        "border",
+        "border_radius",
+        "padding",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "background-color": "@xf-paletteColor1",
+        "border-right-width": "1px",
+        "border-right-color": "@xf-borderColor",
+        "padding": "@xf-paddingMedium",
+        "extra": "width: 85px;\ntext-align: center;"
+    },
+    "display_order": 5
+}

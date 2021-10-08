@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:if is=\"!\\$thread.discussion_open\">(.*?)<\\/xf:if>/s",
+    "replace": "$0\n\n<xf:include template=\"th_thread_list_macros_answeredIcon_qaForums\" />"
+}

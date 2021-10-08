@@ -1,0 +1,12 @@
+{
+    "edit_format": "select",
+    "edit_format_params": "cell={{ phrase('thqaforums_next_to_user_post_bit') }}\nexternal={{ phrase('thqaforums_next_to_user_controls') }}",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "cell",
+    "relations": {
+        "thqaforums": 210
+    }
+}

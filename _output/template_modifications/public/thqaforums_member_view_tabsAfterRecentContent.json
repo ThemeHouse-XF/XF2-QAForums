@@ -1,0 +1,9 @@
+{
+    "template": "member_view",
+    "description": "Add best answers tab to member view.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:tabs:after_recent_content]-->",
+    "replace": "$0\n<xf:if is=\"$xf.options.thqaforums_profileTab\">\n\t<a href=\"{{ link('members/best-answers', $user) }}\"\n\t   rel=\"nofollow\"\n\t   class=\"tabs-tab\"\n\t   id=\"best-answers\"\n\t   role=\"tab\">{{ phrase('thqaforums_best_answers') }}</a>\n</xf:if>"
+}

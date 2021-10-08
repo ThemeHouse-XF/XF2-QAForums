@@ -1,0 +1,1 @@
+Your <a href="{postLink}" class="fauxBlockLink-blockLink">answer</a> in the thread <a href="{threadUrl}">{threadTitle}</a> was voted {type}.

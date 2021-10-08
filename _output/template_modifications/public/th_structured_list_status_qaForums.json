@@ -1,0 +1,9 @@
+{
+    "template": "structured_list.less",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/&--watched::before {(.*?)}/",
+    "replace": "$0\n<xf:include template=\"th_structured_list_status_qaForums.less\" />"
+}

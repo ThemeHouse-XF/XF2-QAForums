@@ -1,0 +1,6 @@
+{
+    "permission_type": "flag",
+    "interface_group_id": "thQAForumsModerator",
+    "display_order": 150,
+    "depend_permission_id": ""
+}

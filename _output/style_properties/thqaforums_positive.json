@@ -1,0 +1,13 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Positive color",
+    "description": "",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "color",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": "#27ae60",
+    "display_order": 10
+}

@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Adds wrapper inside post loop",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/(<xf:foreach.*?>)(.*?)(<\\/xf:foreach>)/s",
+    "replace": "$1$2\t<xf:if is=\"$post.isFirstPost()\">\n\t\t\t\t\t<xf:macro template=\"th_post_macros_qaForum\" name=\"after_first_post\" arg-thread=\"{$thread}\" arg-view=\"{$th_view_qaForum}\" />\n\t\t\t\t</xf:if>\n\t\t\t$3"
+}

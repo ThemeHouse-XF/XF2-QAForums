@@ -1,0 +1,1 @@
+Don't change best answer automatically if thread is older than:

@@ -1,0 +1,21 @@
+<xf:if is="$data is not empty">
+	<xf:css src="thqaforums_widget_latest_answerers.less" />
+	
+	<div class="block"{{ widget_data($widget) }}>
+		<div class="block-container">
+			<h3 class="block-minorHeader">{$title}</h3>
+			<div class="block-body block-row">
+				<ul class="listHeap thqa-listHeap">
+					<xf:foreach loop="$data" value="$entry">
+						<li>
+							<xf:avatar user="$entry.user" size="s" img="true" />
+							<span class="count" data-xf-init="tooltip" title="{{ phrase('thqaforums_answered_questions') }}">
+								{$entry.count}
+							</span>
+						</li>
+					</xf:foreach>
+				</ul>
+			</div>
+		</div>
+	</div>
+</xf:if>

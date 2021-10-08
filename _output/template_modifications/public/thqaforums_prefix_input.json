@@ -1,0 +1,9 @@
+{
+    "template": "prefix_input",
+    "description": "Extend prefix_menu.js.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:js src=\"xf\\/prefix_menu\\.js\".*?\\/>/s",
+    "replace": "$0\n<xf:js src=\"themehouse/qaforums/prefix_menu.js\" min=\"themehouse/qaforums/prefix_menu.min.js\" addon=\"ThemeHouse/QAForums\" />"
+}

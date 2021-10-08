@@ -1,0 +1,136 @@
+.message-cell--qaControls {
+	.xf-th_qaControls_qaForums();
+	.th_qaControls__bestAnswer {
+		display: block;
+		.xf-th_bestAnswerButton_qaForum();
+	}
+
+	.th_qaControls__bestAnswer--selected,
+	.th_qaControls__bestAnswer:hover {
+		.xf-th_bestAnswerButton_selected_qaForums();
+	}
+
+	.th__qaControls__vote {
+		display: block;
+		.xf-th_voteButton_qaForum();
+	}
+
+	.th__qaControls__vote--voted,
+	.th__qaControls__vote:hover {
+		.xf-th_votebutton_voted_qaForum(no-color);
+	}
+
+	a.th_qaControls__voteCount,
+	.th_qaControls__voteCount {
+		.xf-th_voteCount_qaForum();
+
+		&--negative {
+			.xf-th_voteCount_negative_qaForum();
+		}
+
+		&--positive {
+			.xf-th_voteCount_positive_qaForum();
+		}
+	}
+}
+
+.actionBar-action {
+	a.th_qaControls__voteCount,
+	.th_qaControls__voteCount {
+		&--negative {
+			color: @xf-thqaforums_negative;
+		}
+
+		&--positive {
+			color: @xf-thqaforums_positive;
+		}
+	}
+}
+
+.th_qaControls__bestAnswer {
+	.xf-th_bestAnswerButton_qaForum();
+	&:hover {
+		text-decoration: none;
+	}
+	&:before {
+		.m-faBase();
+		.m-faContent(@xf-th_qa_bestAnswerIcon);
+		font-weight: min(@xf-fontAwesomeWeight, @faWeight-regular);
+	}
+	&.th_qaControls__bestAnswer--selected {
+		.xf-th_bestAnswerButton_selected_qaForums();
+		&:before {
+			font-weight: @faWeight-solid;
+		}
+		&:hover {
+			color: @xf-thqaforums_negative;
+		}
+	}
+}
+
+.th__qaControls__vote {
+	&:hover {
+		text-decoration: none;
+	}
+	&:before {
+		.m-faBase();
+		font-weight: min(@xf-fontAwesomeWeight, @faWeight-regular);
+	}
+	&.th__qaControls__vote--voted {
+		&:before {
+			font-weight: @faWeight-solid;
+		}
+	}
+}
+
+.th__qaControls__vote--up {
+	&:before {
+		.m-faContent(@xf-th_qa_upvoteIcon);
+	}
+	&:hover {
+		color: @xf-thqaforums_positive;
+	}
+	&.th__qaControls__vote--voted {
+		color: @xf-thqaforums_positive;
+	}
+}
+
+.th__qaControls__vote--down {
+	&:before {
+		.m-faContent(@xf-th_qa_downvoteIcon);
+	}
+	&:hover {
+		color: @xf-thqaforums_negative;
+	}
+	&.th__qaControls__vote--voted {
+		color: @xf-thqaforums_negative;
+	}
+}
+
+.message-inner--bestAnswer {
+	.message-userArrow::after {
+		<xf:if is="{{ property('th_bestAnswerStyling_qaForums--background-color') }}">
+		border-right-color: @xf-th_bestAnswerStyling_qaForums--background-color;
+		</xf:if>
+	}
+
+	.xf-th_bestAnswerStyling_qaForums();
+}
+
+.message-attribution-opposite {
+	display: none;
+}
+
+@media (max-width: @xf-responsiveMedium) {
+	.message-cell--qaControls {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
+		.th_qaControls__bestAnswer,
+		.th_qaControls__voteCount,
+		.th__qaControls__vote {
+			display: inline-block;
+		}
+	}
+}

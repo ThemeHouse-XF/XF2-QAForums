@@ -1,0 +1,6 @@
+{{ phrase('thqaforums_your_answer_in_thread_x_has_received_a_x', {
+	'type': $extra.type == 'up' ? phrase('thqaforums_alert_upvote') : phrase('thqaforums_alert_downvote'),
+	'threadUrl': link('threads', {'thread_id': $extra.thread_id, 'title': $extra.thread_title}),
+	'threadTitle': $extra.thread_title,
+	'postLink': link('posts', $content)
+}) }}

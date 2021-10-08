@@ -1,0 +1,9 @@
+{
+    "template": "helper_criteria",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:user:after_content]-->",
+    "replace": "$0\n\n<xf:include template=\"th_helper_criteria_content_qaForums\" />"
+}

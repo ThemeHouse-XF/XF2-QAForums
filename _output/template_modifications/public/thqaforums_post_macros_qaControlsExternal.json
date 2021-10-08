@@ -1,0 +1,9 @@
+{
+    "template": "post_macros",
+    "description": "Adds question and answer controls next to user controls.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<div.*class=\".*actionBar-set.*actionBar-set--external.*\">.*<xf:contentcheck>/sU",
+    "replace": "$0\n<xf:if is=\"!$depth\">\n\t<xf:macro template=\"thqaforums_post_macros_controls\"\n\t\t\t  name=\"external_controls\"\n\t\t\t  arg-post=\"{$post}\"\n\t\t\t  arg-thread=\"{$thread}\" />\n</xf:if>"
+}

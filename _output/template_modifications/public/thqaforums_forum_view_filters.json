@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "Add question forum filters",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<ul class=\"filterBar-filters\">\\s*<xf:contentcheck>/",
+    "replace": "$0\n\n<xf:include template=\"thqaforums_thread_list_macros\" name=\"filterbar\" arg-filters=\"{$filters}\" />"
+}

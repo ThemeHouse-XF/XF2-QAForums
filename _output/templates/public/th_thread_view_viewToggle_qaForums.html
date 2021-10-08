@@ -1,0 +1,7 @@
+<xf:if is="$thread.th_is_qa_qaforum">
+	<xf:if is="$th_view_qaForum === 'votes'">
+		<xf:button class="button--link" href="{{ link('threads', $thread, {"view": "date"}) }}">{{ phrase('th_sort_by_date_qaForums') }}</xf:button>
+		<xf:else />
+		<xf:button class="button--link" href="{{ link('threads', $thread, {"view": "votes"}) }}">{{ phrase('th_sort_by_votes_qaForums') }}</xf:button>
+	</xf:if>
+</xf:if>

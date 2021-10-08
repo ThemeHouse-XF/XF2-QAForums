@@ -1,0 +1,11 @@
+<xf:checkboxrow name="criteria[th_is_qa_qaforum]"
+	label="{{ phrase('thqaforums_question_status') }}">
+	<xf:option value="0" selected="in_array(0, $criteria.th_is_qa_qaforum)">{{ phrase('thqaforums_not_a_question') }}</xf:option>
+	<xf:option value="1" selected="in_array(1, $criteria.th_is_qa_qaforum)"
+		label="{{ phrase('thqaforums_question') }}">
+		<xf:checkbox name="criteria[thqaforum_question_answered]">
+			<xf:option value="0" selected="in_array(0, $criteria.thqaforum_question_answered)">{{ phrase('thqaforums_not_answered') }}</xf:option>
+			<xf:option value="1" selected="in_array(1, $criteria.thqaforum_question_answered)">{{ phrase('thqaforums_answered') }}</xf:option>
+		</xf:checkbox>
+	</xf:option>
+</xf:checkboxrow>

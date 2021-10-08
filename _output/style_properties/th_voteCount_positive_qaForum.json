@@ -1,0 +1,17 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Vote count (positive)",
+    "description": "",
+    "property_type": "css",
+    "css_components": [
+        "text"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "color": "@xf-thqaforums_positive"
+    },
+    "display_order": 205
+}

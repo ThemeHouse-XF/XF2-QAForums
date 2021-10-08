@@ -1,0 +1,35 @@
+{
+    "th_answeredPrefix_qaForums.json": {
+        "hash": "63da4eb8603034e568a4f1b71728eb31"
+    },
+    "th_defaultThreadView_qaForums.json": {
+        "hash": "5561bd587e0a7b5a8b771a2a9613539a"
+    },
+    "th_hidePostThreshold_qaForums.json": {
+        "hash": "4e2370ece7b7bb06144b83ba6a3cddd6"
+    },
+    "th_qaPrefix_qaForums.json": {
+        "hash": "db4a8c7815479729e980604bd5c59a06"
+    },
+    "thqaf_stats.json": {
+        "hash": "6599c05522a755c16f8f9d55eec9b5e4"
+    },
+    "thqaforums_bestAnswerControlLocation.json": {
+        "hash": "26732f80054528fa2527447bcf582310"
+    },
+    "thqaforums_bestAnswerThreshold.json": {
+        "hash": "322c2fe2987a0cc36816885a1ef2d07c"
+    },
+    "thqaforums_profileTab.json": {
+        "hash": "3586c4c16dbddaf26135c5c1394f2dca"
+    },
+    "thqaforums_showBestAnswerBelowFirstPostDateSort.json": {
+        "hash": "5a18eea3db5e972af4dd1bb569ff0d1e"
+    },
+    "thqaforums_subsequentBestAnswerDaysLimit.json": {
+        "hash": "6629b0705847873762562f47bb441cce"
+    },
+    "thqaforums_upDownVoteControlsLocation.json": {
+        "hash": "55ca186a18146bf66bf0e352c6931d16"
+    }
+}

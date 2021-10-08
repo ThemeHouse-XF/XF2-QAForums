@@ -1,0 +1,1 @@
+Hide post if total points fall below:

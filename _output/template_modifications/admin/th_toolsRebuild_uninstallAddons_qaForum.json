@@ -1,0 +1,9 @@
+{
+    "template": "tools_rebuild",
+    "description": "Adds the uninstall X add-on buttons to rebuild page",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:rebuild_top]-->",
+    "replace": "$0\n\n<xf:include template=\"th_uninstallAddons_qaForum\" />"
+}

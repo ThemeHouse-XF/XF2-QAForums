@@ -1,0 +1,69 @@
+<xf:checkboxrow label="{{ phrase('thqaforums_question_and_answer_options') }}">
+	<xf:option name="user_criteria[th_best_answers_qaforums][rule]" value="th_best_answers_qaforums" selected="{$criteria.th_best_answers_qaforums}"
+			   label="{{ phrase('th_user_has_had_at_least_x_best_answers_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_best_answers_qaforums][data][messages]" value="{$criteria.th_best_answers_qaforums.messages}"
+					  size="5" min="0" step="1" />
+		<xf:select name="user_criteria[th_best_answers_qaforums][data][node_id]" value="{$criteria.th_best_answers_qaforums.node_id}">
+			<xf:option value="0">{{ phrase('(thqaforums_any_forum)') }}</xf:option>
+			<xf:foreach loop="$data.thqaforums_nodetree.getFlattened(0)" value="$treeEntry">
+				<xf:option value="{$treeEntry.record.node_id}" disabled="{{ $treeEntry.record.node_type_id != 'Forum' }}">{{ repeat('--', $treeEntry.depth) }} {$treeEntry.record.title}</xf:option>
+			</xf:foreach>
+		</xf:select>
+	</xf:option>
+	<xf:option name="user_criteria[th_best_answers_max_qaforums][rule]" value="th_best_answers_max_qaforums" selected="{$criteria.th_best_answers_max_qaforums}"
+			   label="{{ phrase('th_user_has_had_no_more_than_x_best_answers_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_best_answers_max_qaforums][data][messages]" value="{$criteria.th_best_answers_max_qaforums.messages}"
+					  size="5" min="0" step="1" />
+		<xf:select name="user_criteria[th_best_answers_max_qaforums][data][node_id]" value="{$criteria.th_best_answers_max_qaforums.node_id}">
+			<xf:option value="0">{{ phrase('(thqaforums_any_forum)') }}</xf:option>
+			<xf:foreach loop="$data.thqaforums_nodetree.getFlattened(0)" value="$treeEntry">
+				<xf:option value="{$treeEntry.record.node_id}" disabled="{{ $treeEntry.record.node_type_id != 'Forum' }}">{{ repeat('--', $treeEntry.depth) }} {$treeEntry.record.title}</xf:option>
+			</xf:foreach>
+		</xf:select>
+	</xf:option>
+
+	<xf:option name="user_criteria[th_up_votes_qaforums][rule]" value="th_up_votes_qaforums" selected="{$criteria.th_up_votes_qaforums}"
+			   label="{{ phrase('th_user_has_received_at_least_x_up_votes_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_up_votes_qaforums][data][votes]" value="{$criteria.th_up_votes_qaforums.votes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+	<xf:option name="user_criteria[th_up_votes_max_qaforums][rule]" value="th_up_votes_max_qaforums" selected="{$criteria.th_up_votes_max_qaforums}"
+			   label="{{ phrase('th_user_has_received_no_more_than_x_up_votes_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_up_votes_max_qaforums][data][votes]" value="{$criteria.th_up_votes_max_qaforums.votes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+
+	<xf:option name="user_criteria[th_down_votes_qaforums][rule]" value="th_down_votes_qaforums" selected="{$criteria.th_down_votes_qaforums}"
+			   label="{{ phrase('th_user_has_received_at_least_x_down_votes_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_down_votes_qaforums][data][votes]" value="{$criteria.th_down_votes_qaforums.votes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+	<xf:option name="user_criteria[th_down_votes_max_qaforums][rule]" value="th_down_votes_max_qaforums" selected="{$criteria.th_down_votes_max_qaforums}"
+			   label="{{ phrase('th_user_has_received_no_more_than_x_down_votes_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_down_votes_max_qaforums][data][votes]" value="{$criteria.th_down_votes_max_qaforums.votes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+
+	<xf:option name="user_criteria[th_points_qaforums][rule]" value="th_points_qaforums" selected="{$criteria.th_points_qaforums}"
+			   label="{{ phrase('th_user_has_at_least_x_vote_points_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_points_qaforums][data][points]" value="{$criteria.th_points_qaforums.points}"
+					  size="5" step="1" />
+	</xf:option>
+	<xf:option name="user_criteria[th_points_max_qaforums][rule]" value="th_points_max_qaforums" selected="{$criteria.th_points_max_qaforums}"
+			   label="{{ phrase('th_user_has_no_more_than_x_vote_points_qaForums:') }}">
+		<xf:numberbox name="user_criteria[th_points_max_qaforums][data][points]" value="{$criteria.th_points_max_qaforums.points}"
+					  size="5" step="1" />
+	</xf:option>
+
+	<xf:option name="user_criteria[th_questions_qaforums][rule]" value="th_questions_qaforums" selected="{$criteria.th_questions_qaforums}"
+			   label="{{ phrase('th_user_has_posted_at_least_x_questions_qaforums:') }}">
+		<xf:numberbox name="user_criteria[th_questions_qaforums][data][count]" value="{$criteria.th_questions_qaforums.count}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+	<xf:option name="user_criteria[th_questions_max_qaforums][rule]" value="th_questions_max_qaforums" selected="{$criteria.th_questions_max_qaforums}"
+			   label="{{ phrase('th_user_has_posted_no_more_than_x_questions_qaforums:') }}">
+		<xf:numberbox name="user_criteria[th_questions_max_qaforums][data][count]" value="{$criteria.th_questions_max_qaforums.count}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+
+</xf:checkboxrow>

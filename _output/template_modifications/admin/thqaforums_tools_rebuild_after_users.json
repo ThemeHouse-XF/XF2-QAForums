@@ -1,0 +1,9 @@
+{
+    "template": "tools_rebuild",
+    "description": "Adds rebuild vote caches to rebuild caches page.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:after_users]-->",
+    "replace": "$0\n\n<xf:include template=\"thqaforums_tools_rebuild_after_users\" />"
+}

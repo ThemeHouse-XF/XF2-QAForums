@@ -1,0 +1,15 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "template=thqaforums_option_template_showBestAnswerBelowFirstPostDateSort",
+    "data_type": "array",
+    "sub_options": [
+        "enabled",
+        "linkOnly"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "{\"enabled\":true,\"linkOnly\":true}",
+    "relations": {
+        "thqaforums": 5
+    }
+}

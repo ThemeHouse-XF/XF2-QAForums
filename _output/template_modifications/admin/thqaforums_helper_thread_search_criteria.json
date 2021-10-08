@@ -1,0 +1,9 @@
+{
+    "template": "helper_thread_search_criteria",
+    "description": "Add question status to thread search criteria.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/$/",
+    "replace": "<xf:include template=\"thqaforums_helper_thread_search_criteria\" />"
+}

@@ -1,0 +1,92 @@
+{
+    "admin/th_forum_edit_qaForums.json": {
+        "hash": "f9731608d799762f37e731f594fe4072"
+    },
+    "admin/th_helper_criteria_content_qaForums.json": {
+        "hash": "3ee1d740b0fc5360f97132eb061910e8"
+    },
+    "admin/th_style_property_template_messageUserEle_qaForums.json": {
+        "hash": "9558d8115b2a68b48f8dc2e76089e1b9"
+    },
+    "admin/th_toolsRebuild_uninstallAddons_qaForum.json": {
+        "hash": "198e9a65769a500b18f398a36c6811f0"
+    },
+    "admin/thqaforums_helper_thread_search_criteria.json": {
+        "hash": "93093343ba42a9d3a0e5bbec146b7ac0"
+    },
+    "admin/thqaforums_thread_batch_update_confirm.json": {
+        "hash": "544203644566cec64f1e09beff6ce2a9"
+    },
+    "admin/thqaforums_tools_rebuild_after_users.json": {
+        "hash": "3a88759cbb13433a81014d832ccb4fa8"
+    },
+    "public/th_forum_view_postThreadPhrase_qaForums.json": {
+        "hash": "8eabc7fbe6d49e0a473394348d8673a9"
+    },
+    "public/th_message_macros_extras_qaForums.json": {
+        "hash": "8c0b4eab0fb73f12f1e621202817e12c"
+    },
+    "public/th_post_macros_bestAnswerClass_qaForums.json": {
+        "hash": "e5fc4e27df253424eef16efb33304568"
+    },
+    "public/th_structured_list_status_qaForums.json": {
+        "hash": "0be8a31c8d293065259460bbbd483241"
+    },
+    "public/th_thread_list_macros_answeredIcon_qaForums.json": {
+        "hash": "df7cc288c99feb151fb4577bd2c2ee33"
+    },
+    "public/th_thread_view_pageNav_qaForums.json": {
+        "hash": "b24fda2360d716bd5fcd7c8b81e50930"
+    },
+    "public/th_thread_view_postBelowThreshold_qaForums.json": {
+        "hash": "c9691a048ae300234391c9cbea909133"
+    },
+    "public/th_thread_view_top_qaForums.json": {
+        "hash": "d42fc61279bdd4caa0734dc21906fc70"
+    },
+    "public/th_thread_view_viewToggle_qaForums.json": {
+        "hash": "9a30f74aae7391d595bf12d2c77b1718"
+    },
+    "public/thqaforums_forum_filters.json": {
+        "hash": "4917cdcc448d16f3c84aed8eee01bd6f"
+    },
+    "public/thqaforums_forum_view_filters.json": {
+        "hash": "fab4ff53ebbbb655a6f8fa119161986c"
+    },
+    "public/thqaforums_helper_thread_options_thread_status.json": {
+        "hash": "b4fe1bad2f2e1e0192d2354765ded072"
+    },
+    "public/thqaforums_member_view_tabPanesAfterRecentContent.json": {
+        "hash": "436fa928100bb1f3c88a8b7513d4909b"
+    },
+    "public/thqaforums_member_view_tabsAfterRecentContent.json": {
+        "hash": "502f59411b83b62870ece1750afb18f4"
+    },
+    "public/thqaforums_post_macros_qaControls.json": {
+        "hash": "dd6858e4bd28a73c240d8e24700fb23b"
+    },
+    "public/thqaforums_post_macros_qaControlsExternal.json": {
+        "hash": "ece6a77c5192a8095aaf9e149a02448d"
+    },
+    "public/thqaforums_prefix_input.json": {
+        "hash": "ec677d7820cbc2ccb12036d604fcb557"
+    },
+    "public/thqaforums_search_form_post.json": {
+        "hash": "e0dae9187b80b4e056e8c503c82c12d5"
+    },
+    "public/thqaforums_thread_view_loopwrapper.json": {
+        "hash": "ebc1a2af24a5472ce4d5006ce3029f83"
+    },
+    "public/thqaforums_thread_view_structuredData.json": {
+        "hash": "a19a14c5bf172d8cdecae47704d3c070"
+    },
+    "public/thqaforums_whats_new_posts_filterMenuFiltersExtra.json": {
+        "hash": "cb824fb4ae1369ec7a06055a714453ea"
+    },
+    "public/thqaforums_whats_new_posts_filtersBottom.json": {
+        "hash": "51046f13e8d847313f9946ab99a5e8fb"
+    },
+    "public/thqaforums_widget_forum_statistics.json": {
+        "hash": "0e9f5a3078e87aa1021154f967d70bb4"
+    }
+}

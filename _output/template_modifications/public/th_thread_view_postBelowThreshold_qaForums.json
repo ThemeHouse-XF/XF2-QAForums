@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Adds post wrapper for posts below threshold",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:macro template=\"post_macros\" name=\"post\".*?\\/>/s",
+    "replace": "<xf:if is=\"$post.isBelowPointThreshold()\">\n\t<xf:macro template=\"th_post_macros_qaForum\" name=\"post_below_threshold\"\n\t\t\t  arg-post=\"{$post}\"\n\t\t\t  arg-thread=\"{$thread}\" />\n\t<xf:else />\n\t$0\n</xf:if>"
+}

@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Adds first post and other details to top of Q&A Forums",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<div.*?class=\".*?block-body.*?js-replyNewMessageContainer.*?\".*?>/",
+    "replace": "$0\n<xf:include template=\"th_thread_view_top_qaForums\" />\n"
+}

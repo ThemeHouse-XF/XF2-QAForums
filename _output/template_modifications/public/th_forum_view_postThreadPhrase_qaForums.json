@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "{{ phrase('post_thread') }}",
+    "replace": "<xf:if is=\"$forum.canPostQuestion() && $forum.th_force_qa_qaforum\">\n\t\t{{ phrase('th_ask_question_qaForums') }}\n\t\t<xf:else />\n\t\t$0\n\t\t</xf:if>"
+}

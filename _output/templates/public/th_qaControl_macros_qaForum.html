@@ -1,0 +1,117 @@
+<xf:macro name="vote_button"
+		  arg-canVote="{{ false }}"
+		  arg-type="!"
+		  arg-post="!"
+		  arg-thread="!"
+		  arg-currentVote="!">
+	<xf:macro name="assets" />
+
+	<xf:if is="$type === 'up'">
+		<xf:set var="$voteUrl">{{ link('posts/upvote-answer', $post, { "_xfToken": csrf_token() }) }}</xf:set>
+		<xf:set var="$buttonTooltip">{{ phrase('th_up_vote_this_answer_qaForums') }}</xf:set>
+		<xf:else />
+		<xf:set var="$voteUrl">{{ link('posts/downvote-answer', $post, { "_xfToken": csrf_token() }) }}</xf:set>
+		<xf:set var="$buttonTooltip">{{ phrase('th_down_vote_this_answer_qaForums') }}</xf:set>
+	</xf:if>
+
+	<xf:if is="$canVote">
+		<xf:set var="$buttonUrl">{$voteUrl}</xf:set>
+		<xf:else />
+		<xf:set var="$buttonUrl">javascript:void(0)</xf:set>
+		<xf:if is="$xf.visitor.user_id">
+			<xf:set var="$buttonTooltip">{{ phrase('th_no_permission_to_vote_answer_qaForums') }}</xf:set>
+			<xf:else />
+			<xf:set var="$buttonTooltip">{{ phrase('th_log_in_or_sign_up_to_vote_qaForums') }}</xf:set>
+		</xf:if>
+	</xf:if>
+
+	<xf:if is="$currentVote">
+		<xf:if is="$currentVote->vote_type === $type">
+			<xf:set var="$additionalClasses">th__qaControls__vote--voted</xf:set>
+			<xf:if is="$type === 'up'">
+				<xf:set var="$buttonTooltip">{{ phrase('th_remove_your_up_vote_qaForums') }}</xf:set>
+				<xf:else />
+				<xf:set var="$buttonTooltip">{{ phrase('th_remove_your_down_vote_qaForums') }}</xf:set>
+			</xf:if>
+		</xf:if>
+	</xf:if>
+
+	<a href="{$buttonUrl}"
+	   title="{$buttonTooltip}"
+	   data-xf-init="tooltip"
+	   data-xf-click="th_qaForums_vote"
+	   data-qa-controls="< .js-qaControls"
+	   class="th__qaControls__vote th__qaControls__vote--{$type} {$additionalClasses}">
+	</a>
+</xf:macro>
+
+<xf:macro name="vote_points"
+		  arg-post="!">
+	<xf:if is="$post.canViewVoteDetails()">
+		<a data-xf-init="tooltip" data-xf-click="overlay"
+		   href="{{ link('posts/qa-votes', $post) }}"
+		   rel="nofollow"
+		   title="{{ phrase('th_x_points_y_up_votes_z_down_votes_qaForums', {
+				  'normalized': $post.th_points_qaforum|number,
+				  'up_votes': $post.th_up_votes_qaforum|number,
+				  'down_votes': $post.th_down_votes_qaforum|number
+				  }) }}"
+		   class="{$class} th_qaControls__voteCount {{ $post.th_points_qaforum > 0 ? 'th_qaControls__voteCount--positive' : '' }} {{ $post.th_points_qaforum < 0 ? 'th_qaControls__voteCount--negative' : '' }}">
+			{$post.th_points_qaforum|th_friendlyNumber_qaForum}
+		</a>
+		<xf:else />
+		<span data-xf-init="tooltip"
+			  rel="nofollow"
+			  title="{{ phrase('th_x_points_y_up_votes_z_down_votes_qaForums', {
+					 'normalized': $post.th_points_qaforum|number,
+					 'up_votes': $post.th_up_votes_qaforum|number,
+					 'down_votes': $post.th_down_votes_qaforum|number
+					 }) }}"
+			  class="th_qaControls__voteCount {{ $post.th_points_qaforum > 0 ? 'th_qaControls__voteCount--positive' : '' }} {{ $post.th_points_qaforum < 0 ? 'th_qaControls__voteCount--negative' : '' }}">
+			{$post.th_points_qaforum|th_friendlyNumber_qaForum}
+		</span>
+	</xf:if>
+</xf:macro>
+
+<xf:macro name="best_answer_button"
+		  arg-class=""
+		  arg-canSetBestAnswer="{{ false }}"
+		  arg-post="!"
+		  arg-thread="!">
+	<xf:if is="$canSetBestAnswer">
+		<xf:if is="$post.th_best_answer_qaforum">
+			<xf:set var="$titlePhrase">
+				{{ phrase('th_unmark_as_best_answer_qaForum') }}
+				<xf:if is="$post.canSeeBestAnswerAwarder() && $post.BestAnswerAwardUser">
+					{{ phrase('th_awarded_by_x_qaForum', {'user': $post.BestAnswerAwardUser.username}) }}
+				</xf:if>
+			</xf:set>
+			<xf:else />
+			<xf:set var="$titlePhrase">
+				{{ phrase('th_mark_as_best_answer_qaForum') }}
+			</xf:set>
+		</xf:if>
+		<a href="{{ link('posts/best-answer', $post, { "_xfToken": csrf_token() }) }}"
+		   class="{$class} th_qaControls__bestAnswer {{ $post.th_best_answer_qaforum ? 'th_qaControls__bestAnswer--selected' : '' }}"
+		   data-xf-init="tooltip"
+		   title="{$titlePhrase|raw|for_attr}">
+		</a>
+		<xf:else />
+		<xf:if is="$post.th_best_answer_qaforum">
+			<xf:set var="$titlePhrase">
+				{{ phrase('th_best_answer_qaForums') }}
+				<xf:if is="$post.canSeeBestAnswerAwarder() && $post.BestAnswerAwardUser">
+					{{ phrase('th_awarded_by_x_qaForum', {'user': $post.BestAnswerAwardUser.username}) }}
+				</xf:if>
+			</xf:set>
+			<span class="{$class} th_qaControls__bestAnswer th_qaControls__bestAnswer--selected"
+				  data-xf-init="tooltip"
+				  title="{{$titlePhrase|raw|for_attr}}">
+			</span>
+		</xf:if>
+	</xf:if>
+</xf:macro>
+
+<xf:macro name="assets">
+	<xf:js src="themehouse/qaforums/action.js" min="themehouse/qaforums/action.min.js" addon="ThemeHouse/QAForums" />
+</xf:macro>

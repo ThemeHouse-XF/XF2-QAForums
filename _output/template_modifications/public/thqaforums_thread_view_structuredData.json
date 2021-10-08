@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Add structured data to thread.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:content_top]-->",
+    "replace": "$0\n\n<xf:macro template=\"thqaforums_thread_view_macros\" name=\"structured_data\" arg-thread=\"{$thread}\" arg-posts=\"{$posts}\" />"
+}

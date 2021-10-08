@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Adds params attribute to pagenav",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "data=\"{$thread}\"",
+    "replace": "$0 params=\"{$pageNavParams}\""
+}

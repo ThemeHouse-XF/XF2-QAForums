@@ -1,0 +1,9 @@
+{
+    "event_id": "templater_macro_pre_render",
+    "execute_order": 10,
+    "callback_class": "ThemeHouse\\QAForums\\Listener\\Admin\\TemplaterMacroPreRender",
+    "callback_method": "helperCriteriaUserPanes",
+    "active": true,
+    "hint": "admin:helper_criteria:user_panes",
+    "description": "admin:helper_criteria:user_panes"
+}

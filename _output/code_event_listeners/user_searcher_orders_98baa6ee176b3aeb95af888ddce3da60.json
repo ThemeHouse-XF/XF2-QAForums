@@ -1,0 +1,9 @@
+{
+    "event_id": "user_searcher_orders",
+    "execute_order": 10,
+    "callback_class": "ThemeHouse\\QAForums\\Listener\\UserSearcherOrders",
+    "callback_method": "userSearcherOrders",
+    "active": true,
+    "hint": "",
+    "description": ""
+}

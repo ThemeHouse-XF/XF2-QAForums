@@ -1,0 +1,9 @@
+{
+    "template": "style_property_template_messageUserElements",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "</xf:checkboxrow>",
+    "replace": "<xf:option name=\"{$formBaseKey}[th_best_answers_qaforums]\" selected=\"{$property.property_value.th_best_answers_qaforums}\">\n    {{ phrase('th_best_answers_qaForums') }}\n</xf:option>\n\n$0"
+}

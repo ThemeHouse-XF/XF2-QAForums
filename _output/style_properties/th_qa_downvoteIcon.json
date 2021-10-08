@@ -1,0 +1,13 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Answer down vote icon",
+    "description": "",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "string",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": "@fa-var-arrow-alt-down",
+    "display_order": 120
+}

@@ -1,0 +1,15 @@
+{
+    "edit_format": "onofftextbox",
+    "edit_format_params": "onoff=enabled\nvalue=days\ntype=spinbox\ndefault=28\nunits={{ phrase('days') }}",
+    "data_type": "array",
+    "sub_options": [
+        "enabled",
+        "days"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "{\"enabled\":\"0\",\"days\":\"28\"}",
+    "relations": {
+        "thqaforums": 1055
+    }
+}

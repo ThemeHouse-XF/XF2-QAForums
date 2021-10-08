@@ -1,0 +1,9 @@
+{
+    "template": "thread_batch_update_confirm",
+    "description": "Add question status actions to thread batch update.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:option name=\"actions\\[soft_delete\\]\".*?<\\/xf:option>/s",
+    "replace": "$0\n\t\t\t\t<xf:option name=\"actions[add_question_status]\" value=\"add_question_status\">{{ phrase('thqaforums_add_question_status') }}</xf:option>\n\t\t\t\t<xf:option name=\"actions[remove_question_status]\" value=\"remove_question_status\">{{ phrase('thqaforums_remove_question_status') }}</xf:option>\n"
+}

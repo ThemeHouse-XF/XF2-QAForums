@@ -1,0 +1,11 @@
+<xf:if is="$thread.th_is_qa_qaforum && $thread.th_answered_qaforum">
+	<li>
+		<i class="structItem-status structItem-status--answered" aria-hidden="true" title="{{ phrase('th_thread_answered_qaForums') }}"></i>
+		<span class="u-srOnly">{{ phrase('th_thread_answered_qaForums') }}</span>
+	</li>
+	<xf:elseif is="$thread.th_is_qa_qaforum" />
+	<li>
+		<i class="structItem-status structItem-status--unanswered" aria-hidden="true" title="{{ phrase('th_unanswered_thread_qaForums') }}"></i>
+		<span class="u-srOnly">{{ phrase('th_unanswered_thread_qaForums') }}</span>
+	</li>
+</xf:if>

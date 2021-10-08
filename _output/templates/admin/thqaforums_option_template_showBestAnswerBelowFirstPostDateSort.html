@@ -1,0 +1,18 @@
+<xf:set var="$extraKeysInput"><xf:macro template="option_macros" name="input_name" arg-id="extraCaptchaKeys" /></xf:set>
+<xf:checkboxrow hint="{$hintHtml}"
+                explain="{$explainHtml}">
+
+    <xf:option name="{$inputName}[enabled]" selected="{$option.option_value.enabled}">
+        <xf:label>{$option.title}</xf:label>
+        <xf:dependent>
+            <xf:checkbox>
+                <xf:option name="{$inputName}[linkOnly]" checked="{$option.option_value.linkOnly}" label="{{ phrase('thqaforums_show_link_only') }}" />
+            </xf:checkbox>
+        </xf:dependent>
+    </xf:option>
+
+    <xf:html>
+        {$listedHtml}
+        <xf:macro template="option_macros" name="listed_html" arg-id="extraCaptchaKeys" />
+    </xf:html>
+</xf:checkboxrow>

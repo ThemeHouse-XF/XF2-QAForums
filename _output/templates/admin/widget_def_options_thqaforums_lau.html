@@ -1,0 +1,12 @@
+<hr class="formRowSep" />
+
+<xf:selectrow name="options[latest]" value="{$options.latest}" label="{{ phrase('thqaforums_time_limit') }}">
+	<xf:option value="hour">{{ phrase('thqaforums_last_hour') }}</xf:option>
+	<xf:option value="day">{{ phrase('last_day') }}</xf:option>
+	<xf:option value="week">{{ phrase('last_week') }}</xf:option>
+	<xf:option value="year">{{ phrase('thqaforums_last_year') }}</xf:option>
+	<xf:option value="all-time">{{ phrase('all_time') }}</xf:option>
+</xf:selectrow>
+
+<xf:numberboxrow name="options[limit]" value="{$options.limit}" min="0"
+	label="{{ phrase('maximum_entries') }}" />

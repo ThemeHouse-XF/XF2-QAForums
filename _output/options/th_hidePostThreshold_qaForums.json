@@ -1,0 +1,15 @@
+{
+    "edit_format": "onofftextbox",
+    "edit_format_params": "onoff=enabled\nvalue=points\ntype=spinbox\ndefault=-5\nunits={{ phrase('points') }}",
+    "data_type": "array",
+    "sub_options": [
+        "enabled",
+        "points"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "{\"enabled\":\"0\",\"points\":\"-5\"}",
+    "relations": {
+        "thqaforums": 1000
+    }
+}

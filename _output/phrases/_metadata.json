@@ -1,0 +1,1058 @@
+{
+    "alert_opt_out.post_best_answer.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "0b5f7955b2454b415dce0a8d9300eaba"
+    },
+    "alert_opt_out.post_thqa_vote.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "a3c98b932e78d77e38bf972ea8654835"
+    },
+    "futuretopposters_rebuild_best_answers_this_last_month.txt": {
+        "global_cache": false,
+        "version_id": 1010073,
+        "version_string": "1.1.0.3",
+        "hash": "1505521b6831e2e8df0836e1480cf8d3"
+    },
+    "member_stat.thqaforums_most_answers.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "bf9ea107bf49a896ded2be10c670f45c"
+    },
+    "member_stat.thqaforums_most_qapoints.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "cb116d3cbb73cb63bdc77c1aa924767b"
+    },
+    "member_stat.thqaforums_most_qaupvotes.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "e924cdab5a7e243a39169bc34e0ef126"
+    },
+    "option.th_answeredPrefix_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000570,
+        "version_string": "1.0.5",
+        "hash": "c03570970362d7662647ce72eaf4cbb7"
+    },
+    "option.th_defaultThreadView_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "343951df8a344a756003fd3a13e7c6ab"
+    },
+    "option.th_hidePostThreshold_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "8fef8494b43168f667181f39b2ec6665"
+    },
+    "option.th_qaPrefix_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "ec68ccf474a537fc00aca98ec9e834d6"
+    },
+    "option.thqaf_stats.txt": {
+        "global_cache": false,
+        "version_id": 1000870,
+        "version_string": "1.0.8",
+        "hash": "9689780c20b1a2fcf706c766dbf3a971"
+    },
+    "option.thqaforums_bestAnswerControlLocation.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "343986de6b26699754a3faf401c298f8"
+    },
+    "option.thqaforums_bestAnswerThreshold.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "58ad913b97738e0b54cddf6981e2aabb"
+    },
+    "option.thqaforums_profileTab.txt": {
+        "global_cache": false,
+        "version_id": 1010091,
+        "version_string": "1.1.0 Patch Level 1",
+        "hash": "6516f09f4a1ee27bc2fde1b1f0d29faa"
+    },
+    "option.thqaforums_showBestAnswerBelowFirstPostDateSort.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "ea48dcd092fb0aa34a14e4e25a238f3c"
+    },
+    "option.thqaforums_subsequentBestAnswerDaysLimit.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "a3bf325b6d6839c37496be64bf89ec54"
+    },
+    "option.thqaforums_upDownVoteControlsLocation.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "55929039f077f2bd7057c662f14462d0"
+    },
+    "option_explain.th_answeredPrefix_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "d02d802c1f8abc6be9ce24e671390411"
+    },
+    "option_explain.th_defaultThreadView_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "8b88bc884ef65665b58df98a87efcf48"
+    },
+    "option_explain.th_hidePostThreshold_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000631,
+        "version_string": "1.0.6 Beta 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.th_qaPrefix_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "43ef9f459ee26ac1ec770c153c1f0433"
+    },
+    "option_explain.thqaf_stats.txt": {
+        "global_cache": false,
+        "version_id": 1000870,
+        "version_string": "1.0.8",
+        "hash": "ea6a52f77f738fdffe39c57927d92874"
+    },
+    "option_explain.thqaforums_bestAnswerControlLocation.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.thqaforums_bestAnswerThreshold.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "7e08ce8280754ee6a95984887fd1bb11"
+    },
+    "option_explain.thqaforums_profileTab.txt": {
+        "global_cache": false,
+        "version_id": 1010091,
+        "version_string": "1.1.0 Patch Level 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.thqaforums_showBestAnswerBelowFirstPostDateSort.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.thqaforums_subsequentBestAnswerDaysLimit.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "b4a1d87737efc767a12c7171a2bc110b"
+    },
+    "option_explain.thqaforums_upDownVoteControlsLocation.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.thqaforums.txt": {
+        "global_cache": false,
+        "version_id": 1001011,
+        "version_string": "1.0.10 Alpha 1",
+        "hash": "b8569c19b5cfe23e08ae7870f7bb2e23"
+    },
+    "option_group_description.thqaforums.txt": {
+        "global_cache": false,
+        "version_id": 1001011,
+        "version_string": "1.0.10 Alpha 1",
+        "hash": "0e710957784095fb39d7802461efd77e"
+    },
+    "permission.forum_th_addQuestionAny.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "4d6222a21296e8afa7065e6e13414abc"
+    },
+    "permission.forum_th_addQuestionOwnThread.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "acc518f48204a352439c3ae385948278"
+    },
+    "permission.forum_th_bestAnswerAnyThread.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "277550d197703b6de1f51ae0df462453"
+    },
+    "permission.forum_th_bestAnswerOwnPost.txt": {
+        "global_cache": false,
+        "version_id": 1010331,
+        "version_string": "1.1.3 Beta 1",
+        "hash": "78cd08bf286a1c76223f70581f2dc48a"
+    },
+    "permission.forum_th_bestAnswerOwnThread.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "439e9a3f59338bac4bd8c85414ae14f0"
+    },
+    "permission.forum_th_removeQuestionAny.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "f4e1e552e361ea781e548346e35bcc74"
+    },
+    "permission.forum_th_removeQuestionOwn.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "8f9a783fe3e0d63b09e1ce8ed56df8fb"
+    },
+    "permission.forum_th_seeBestAnswerAwarder.txt": {
+        "global_cache": false,
+        "version_id": 1010331,
+        "version_string": "1.1.3 Beta 1",
+        "hash": "5ab71ac3714ce76efbb69ca32410c0dc"
+    },
+    "permission.forum_th_viewVotes.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "473b4e321986aeab8934f6a3502c0951"
+    },
+    "permission.forum_th_voteAnswer.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "bf90d64d7fcbc8eb236a4873aab0cab7"
+    },
+    "permission.forum_th_voteAnswerOwnThread.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "1ac01272fe17247cb77ba96008fc8634"
+    },
+    "permission_interface.thQAForumsModerator.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "c18f55e52214c1f5e3c81741db74f122"
+    },
+    "permission_interface.thQAForumsPermissions.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "e2bbb4696e90b3e7eb4b6aa2dc51370c"
+    },
+    "qaforums_x_has_not_had_any_best_answers.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "6ad38bc18801f5094352643d59ec0acf"
+    },
+    "style_prop.th_bestAnswerButton_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e88445a14e6af435b396d9409ab1ab94"
+    },
+    "style_prop.th_bestAnswerButton_selected_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1c890f6c785895f4165c09f94251b4b5"
+    },
+    "style_prop.th_bestAnswerStyling_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "daba1cdbeab63b50b172bb3a7b62f6bc"
+    },
+    "style_prop.th_qaControls_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "5c5d569352ef658eaaf5fa3cc0e6efaf"
+    },
+    "style_prop.th_qa_bestAnswerIcon.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "244d7d82eaf16c5dcdd80eabb935ee99"
+    },
+    "style_prop.th_qa_downvoteIcon.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "4d4bc03f86ba5a6168a7438e2758cb8b"
+    },
+    "style_prop.th_qa_structuredQuestion.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "63d0b4675803fe0cc3e4c0f13fcb796a"
+    },
+    "style_prop.th_qa_structuredQuestionAnswered.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "dc8dce67abe7ea8cb8f1584ff7986b7e"
+    },
+    "style_prop.th_qa_upvoteIcon.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "238c27e0794d8352486dba86abf2e6ab"
+    },
+    "style_prop.th_voteButton_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "de50bd94fb2816efd62ded7e61c20bde"
+    },
+    "style_prop.th_voteCount_negative_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3a541d945553e2656806070bdb6b077e"
+    },
+    "style_prop.th_voteCount_positive_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "69c37b490ae0df6fd88cfc7d8738f912"
+    },
+    "style_prop.th_voteCount_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "10772bc88a47c89adf0b756abe2c957e"
+    },
+    "style_prop.th_votebutton_voted_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0e944e2773cff6e9382fcc429267e5cd"
+    },
+    "style_prop.thqaforumsListHeapCount.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "434988c60341e5b27a21e6b04c849262"
+    },
+    "style_prop.thqaforums_negative.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "3e39969f092f657fc84f65b9615d19e0"
+    },
+    "style_prop.thqaforums_positive.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "ab109b108dcdfb0f704d1ae5b6b698ff"
+    },
+    "style_prop_desc.th_bestAnswerButton_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_bestAnswerButton_selected_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_bestAnswerStyling_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "2c92fa26aee52fe4b5ed1f27867103bb"
+    },
+    "style_prop_desc.th_qaControls_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_qa_bestAnswerIcon.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_qa_downvoteIcon.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_qa_structuredQuestion.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_qa_structuredQuestionAnswered.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_qa_upvoteIcon.txt": {
+        "global_cache": false,
+        "version_id": 1010193,
+        "version_string": "1.1.1 Patch Level 3",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_voteButton_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_voteCount_negative_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_voteCount_positive_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_voteCount_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.th_votebutton_voted_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.thqaforumsListHeapCount.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "b95d971c310cd9892d328228668ba8f4"
+    },
+    "style_prop_desc.thqaforums_negative.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.thqaforums_positive.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_group.th_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b8569c19b5cfe23e08ae7870f7bb2e23"
+    },
+    "style_prop_group_desc.th_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "th_ask_question_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "69d9a05e751aa711e5f512b06fdaa6f2"
+    },
+    "th_awarded_by_x_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1010331,
+        "version_string": "1.1.3 Beta 1",
+        "hash": "90218f56614f303e9221fd25695f990a"
+    },
+    "th_best_answer_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "e90538f72bf93fdc74583bb6a2a4141b"
+    },
+    "th_best_answers_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000470,
+        "version_string": "1.0.4",
+        "hash": "eccc91b1d18c3410a4057848c99b2044"
+    },
+    "th_down_vote_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "a6f07fc2ef4ae67878072e18c6c89cf5"
+    },
+    "th_down_vote_this_answer_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3a1488a83852e984da80c77539c7bec4"
+    },
+    "th_log_in_or_sign_up_to_vote_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "30226acc6863968373a0c254916e8a47"
+    },
+    "th_mark_as_best_answer_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "2dad76cbc9c0f0013c1f79d879a072be"
+    },
+    "th_members_who_voted_on_message_x_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "655355af60cc47d71db13bcd4d079657"
+    },
+    "th_no_permission_to_vote_answer_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "214cdf6b6c1963f414ef29f07cfaefaa"
+    },
+    "th_post_below_point_threshold_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000631,
+        "version_string": "1.0.6 Beta 1",
+        "hash": "c8a71c5a0d6011f7046f59d2a11af737"
+    },
+    "th_rebuild_forum_vote_caches_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000970,
+        "version_string": "1.0.9",
+        "hash": "c41d14eb7500814dddc2d506948dec0c"
+    },
+    "th_rebuild_user_vote_caches_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "0c4db0d49f14a32fcfbdd041191ea25e"
+    },
+    "th_remove_your_down_vote_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1014fb6a7a625f408cbc24c93b592ee2"
+    },
+    "th_remove_your_up_vote_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "9f662f7990c03c33d3cf85e3d80cdb20"
+    },
+    "th_sort_by_date_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b9389ff748f7b55190de3e9aaf0d4d78"
+    },
+    "th_sort_by_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "13936ea058b1b9b7099975456d1020c0"
+    },
+    "th_the_x_addon_is_still_installed_uninstall_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000631,
+        "version_string": "1.0.6 Beta 1",
+        "hash": "9602639e22d1defdaa5027a076d27be1"
+    },
+    "th_thread_answered_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "24e844807ac13c2db513e2d042ea905e"
+    },
+    "th_unanswered_thread_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "2ace7a8341a34c7d2baeaa790fefc3eb"
+    },
+    "th_unmark_as_best_answer_qaForum.txt": {
+        "global_cache": false,
+        "version_id": 1000470,
+        "version_string": "1.0.4",
+        "hash": "9d0ce9fe893654c177180a06d0a48286"
+    },
+    "th_up_vote_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "43d27d239bbb15dc0ad6e94049a1b63c"
+    },
+    "th_up_vote_this_answer_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bcd128ee29ff5845f8496b842eb7de03"
+    },
+    "th_user_has_at_least_x_vote_points_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "bba7a6ce10e038e80912770533d6788c"
+    },
+    "th_user_has_had_at_least_x_best_answers_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "16aaef52acf14e0e659e25ef1575582b"
+    },
+    "th_user_has_had_no_more_than_x_best_answers_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "01a16d212d938172e1f48a00042ef75f"
+    },
+    "th_user_has_no_more_than_x_vote_points_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "feb7977e9c7b26c69ac1ebe90f331043"
+    },
+    "th_user_has_posted_at_least_x_questions_qaforums.txt": {
+        "global_cache": false,
+        "version_id": 1010132,
+        "version_string": "1.1.1 Beta 2",
+        "hash": "8a9a7ad43b41d94a42866f2cc534562b"
+    },
+    "th_user_has_posted_no_more_than_x_questions_qaforums.txt": {
+        "global_cache": false,
+        "version_id": 1010132,
+        "version_string": "1.1.1 Beta 2",
+        "hash": "a25de2469a0b8a371bf3826711f2ccdf"
+    },
+    "th_user_has_received_at_least_x_down_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "6157a3953948f5b2efef98da8ff866d8"
+    },
+    "th_user_has_received_at_least_x_up_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "3f4e9cabd96ac7202884cd8afec1653b"
+    },
+    "th_user_has_received_no_more_than_x_down_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "69d1f1aa2a9a35ad45cfcf5821d23730"
+    },
+    "th_user_has_received_no_more_than_x_up_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "eb154eb982ba865cdee07648b1972677"
+    },
+    "th_x_has_marked_your_post_in_thread_y_as_the_best_answer_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "f3e3ba53b877aaf65706921e2391fe58"
+    },
+    "th_x_points_y_up_votes_z_down_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d62492ee861cadad32c4f56d5a157692"
+    },
+    "th_x_votes_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "6eba377b5b22539490eee691d2cfb79a"
+    },
+    "thqaforum_threads.txt": {
+        "global_cache": false,
+        "version_id": 1000692,
+        "version_string": "1.0.6 Patch Level 2",
+        "hash": "ee2e46363337719c71b3802308c8e3d8"
+    },
+    "thqaforums_add_question_status.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "bf7c421b351aa20a735de1757a65e5e3"
+    },
+    "thqaforums_add_question_status_to_threads_by_default.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "d3b1ee371d38c762fb4ef8390408b9c1"
+    },
+    "thqaforums_add_question_status_to_threads_by_default_hint.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "2a3861d639c180ddbba40836ea54b101"
+    },
+    "thqaforums_additional_qa_filters.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "4605fb98314deaf1c54fd240c6f20edd"
+    },
+    "thqaforums_alert_downvote.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "74e8333ad11685ff3bdae589c8f6e34d"
+    },
+    "thqaforums_alert_upvote.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "46c48bec0d282018b9d167eef7711b2c"
+    },
+    "thqaforums_all_threads.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "eb01f8ecf61cbaa34ce73f46661910db"
+    },
+    "thqaforums_answer_state.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "2d5ec4e8ac67b226f0ebaf19f385898a"
+    },
+    "thqaforums_answered.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "d96e9c5b66270557797cd9a81ae10309"
+    },
+    "thqaforums_answered_questions.txt": {
+        "global_cache": false,
+        "version_id": 1000692,
+        "version_string": "1.0.6 Patch Level 2",
+        "hash": "8ad58064ea532cb685f46c7567f64de5"
+    },
+    "thqaforums_any_forum.txt": {
+        "global_cache": false,
+        "version_id": 1000970,
+        "version_string": "1.0.9",
+        "hash": "f4dc74c8bdbef9d271d70b3a891c28b5"
+    },
+    "thqaforums_best_answers.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "eccc91b1d18c3410a4057848c99b2044"
+    },
+    "thqaforums_best_answers_by_x.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "86c70e328e8afbb4278b59e1f148a68e"
+    },
+    "thqaforums_downvotes.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "befbedca35aa9bb06cb2a0421e9a97ee"
+    },
+    "thqaforums_filter_answered_questions.txt": {
+        "global_cache": false,
+        "version_id": 1010470,
+        "version_string": "1.1.4",
+        "hash": "8ad58064ea532cb685f46c7567f64de5"
+    },
+    "thqaforums_filter_normal_threads.txt": {
+        "global_cache": false,
+        "version_id": 1010470,
+        "version_string": "1.1.4",
+        "hash": "6e2e81cd0e131e4ee2e6576830bd3e35"
+    },
+    "thqaforums_filter_questions.txt": {
+        "global_cache": false,
+        "version_id": 1010470,
+        "version_string": "1.1.4",
+        "hash": "6ce3bdc39e544725038e0e87b771db1e"
+    },
+    "thqaforums_filter_threads_with_no_replies.txt": {
+        "global_cache": false,
+        "version_id": 1010470,
+        "version_string": "1.1.4",
+        "hash": "e8101a831afa1b8b2eae5c8e27490e5f"
+    },
+    "thqaforums_filter_threads_with_replies.txt": {
+        "global_cache": false,
+        "version_id": 1010470,
+        "version_string": "1.1.4",
+        "hash": "d71f4ea4907bb5062980bbc7a30fef85"
+    },
+    "thqaforums_filter_unanswered_questions.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "c850542518f578f6c20feff7d931c76d"
+    },
+    "thqaforums_filter_unsolved_questions.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "3a4c9d2e69513d2bd232bf5562692fa5"
+    },
+    "thqaforums_last_hour.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "97da881bad55e7ca916bfdc9c432a1c9"
+    },
+    "thqaforums_last_year.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "00f715e6996082570427a235b16e691a"
+    },
+    "thqaforums_most_answers.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "bf9ea107bf49a896ded2be10c670f45c"
+    },
+    "thqaforums_next_to_user_controls.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "d94621a16ecc666d0f20ce43e8935334"
+    },
+    "thqaforums_next_to_user_post_bit.txt": {
+        "global_cache": false,
+        "version_id": 1010131,
+        "version_string": "1.1.1 Beta 1",
+        "hash": "74f89dbc27026e34ba753b2036cf8547"
+    },
+    "thqaforums_not_a_question.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "ad91e5144d60c53a50fe57fedebe6353"
+    },
+    "thqaforums_not_answered.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "dba2ade3c5ccc60b48c984861b447175"
+    },
+    "thqaforums_only_normal_threads.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "95a35c99720bf27c4e47eed62070e4f3"
+    },
+    "thqaforums_only_question_threads.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "66f7ed3120c2958efa6bc530fa68b8fd"
+    },
+    "thqaforums_only_threads_with_no_replies.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "28f2c8e23ad49efecf15ea395be30048"
+    },
+    "thqaforums_only_threads_with_replies.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "e356eeb43958dec1a4714e8d7fe02306"
+    },
+    "thqaforums_qa_points.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "cb116d3cbb73cb63bdc77c1aa924767b"
+    },
+    "thqaforums_question.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "a97ea56b0e00b2379736ae60869ff66a"
+    },
+    "thqaforums_question_and_answer_options.txt": {
+        "global_cache": false,
+        "version_id": 1000970,
+        "version_string": "1.0.9",
+        "hash": "a15a8fefd924b83016c89d127a4cdf84"
+    },
+    "thqaforums_question_status.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "b0ad04868d06ca97ec5ffd0e73cdf7f9"
+    },
+    "thqaforums_questions.txt": {
+        "global_cache": false,
+        "version_id": 1000692,
+        "version_string": "1.0.6 Patch Level 2",
+        "hash": "5bd9d9869549045d64b8991fe4209289"
+    },
+    "thqaforums_rebuild_best_answers.txt": {
+        "global_cache": false,
+        "version_id": 1010073,
+        "version_string": "1.1.0.3",
+        "hash": "67f0db698b88f56972306e8a2f6dc832"
+    },
+    "thqaforums_rebuild_down_votes.txt": {
+        "global_cache": false,
+        "version_id": 1010073,
+        "version_string": "1.1.0.3",
+        "hash": "fd090cfa52d55bac81331ff9a905a694"
+    },
+    "thqaforums_rebuild_post_vote_caches.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "51cf886ca3105a6c9ba9df09cc548496"
+    },
+    "thqaforums_rebuild_up_votes.txt": {
+        "global_cache": false,
+        "version_id": 1010073,
+        "version_string": "1.1.0.3",
+        "hash": "a1e146848f410b45d9d2f5317ee58a46"
+    },
+    "thqaforums_remove_question_status.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "d427994739eee113afe7ae309a11a039"
+    },
+    "thqaforums_replies_can_be_voted_up_or_down_and_selected_as_best_answer.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "2c7bf28c04ca6faede8b593504c2a477"
+    },
+    "thqaforums_reply_state.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "4b53bf832f4f23c4e175ce7d218b9fd8"
+    },
+    "thqaforums_show_link_only.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "8f2c6688a76ecd67d685c84dc13af152"
+    },
+    "thqaforums_solved_questions.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "434c5453de4fa69d78207b33f47067ca"
+    },
+    "thqaforums_threads_in_this_forum_are_required_to_be_set_as_questions.txt": {
+        "global_cache": false,
+        "version_id": 1001031,
+        "version_string": "1.0.10 Beta 1",
+        "hash": "f94126b28538e529c8d759d81aec6db2"
+    },
+    "thqaforums_time_limit.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "0397bf3ab66fb15708366223d9b78e7e"
+    },
+    "thqaforums_unanswered.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "920a0e4f20acc57cbb3061a7a98756c8"
+    },
+    "thqaforums_unanswered_questions.txt": {
+        "global_cache": false,
+        "version_id": 1000692,
+        "version_string": "1.0.6 Patch Level 2",
+        "hash": "c850542518f578f6c20feff7d931c76d"
+    },
+    "thqaforums_unsolved_questions.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "3a4c9d2e69513d2bd232bf5562692fa5"
+    },
+    "thqaforums_upvotes.txt": {
+        "global_cache": false,
+        "version_id": 1000771,
+        "version_string": "1.0.7.1",
+        "hash": "e924cdab5a7e243a39169bc34e0ef126"
+    },
+    "thqaforums_view_xs_answer.txt": {
+        "global_cache": false,
+        "version_id": 1010410,
+        "version_string": "1.1.4 Alpha",
+        "hash": "e8bd990f88f172c04ecefaef4114043a"
+    },
+    "thqaforums_your_answer_in_thread_x_has_received_a_x.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "073cc4dfd812bdd1f905c61e599fad6c"
+    },
+    "thqafroums_question_status.txt": {
+        "global_cache": false,
+        "version_id": 1010270,
+        "version_string": "1.1.2",
+        "hash": "b0ad04868d06ca97ec5ffd0e73cdf7f9"
+    },
+    "widget_def.th_unanswered_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "8e90e263a255005aca4b4629c77b62b8"
+    },
+    "widget_def.thqaforums_lau.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "72e3c2bcd3819c6f639f9470c34f3e50"
+    },
+    "widget_def_desc.th_unanswered_qaForums.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "896f703a6e92a133c92856b2414bf485"
+    },
+    "widget_def_desc.thqaforums_lau.txt": {
+        "global_cache": false,
+        "version_id": 1010052,
+        "version_string": "1.1.0 Release Candidate 2",
+        "hash": "8cafd3ac55660c51d73c87890df27b25"
+    }
+}

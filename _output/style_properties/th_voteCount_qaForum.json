@@ -1,0 +1,17 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Vote count",
+    "description": "",
+    "property_type": "css",
+    "css_components": [
+        "text"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "font-size": "@xf-fontSizeLargest"
+    },
+    "display_order": 200
+}

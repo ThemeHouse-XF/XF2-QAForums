@@ -1,0 +1,9 @@
+{
+    "template": "whats_new_posts",
+    "description": "Add question and answer filters to new posts.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:filter_menu:below_filters]-->",
+    "replace": "$0\n\n<xf:macro template=\"thqaforums_thread_list_macros\"\n\t\t  name=\"filters\"\n\t\t  arg-filters=\"{$findNew.filters}\" />"
+}

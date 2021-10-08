@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Adds the view toggler to Q&A Forums thread tools",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<!--\\[XF:thread_tools_menu:bottom]-->(.*?)<\\/xf:if>/s",
+    "replace": "$0\n\n<xf:include template=\"th_thread_view_viewToggle_qaForums\" />"
+}

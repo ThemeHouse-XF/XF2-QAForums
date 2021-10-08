@@ -1,0 +1,26 @@
+<xf:title>{{ phrase('thqaforums_best_answers_by_x', {'name': $user.username}) }}</xf:title>
+
+<xf:head option="metaNoindex"><meta name="robots" content="noindex" /></xf:head>
+
+<xf:breadcrumb href="{{ link('members', $user) }}">{$user.username}</xf:breadcrumb>
+
+<xf:css src="search_results.less" />
+
+<xf:if is="$resultCount">
+	<div class="block">
+		<div class="block-container">
+			<ol class="block-body">
+				<xf:foreach loop="$results" value="$result">
+					{{ $result.render()|raw }}
+				</xf:foreach>
+			</ol>
+			<div class="block-footer">
+				<span class="block-footer-controls"><xf:button href="{{ link('search/member/best-answers', null, {'user_id': $user.user_id}) }}" rel="nofollow">
+					{{ phrase('see_more') }}
+				</xf:button></span>
+			</div>
+		</div>
+	</div>
+<xf:else />
+	<div class="blockMessage">{{ phrase('qaforums_x_has_not_had_any_best_answers', {'name': $user.username}) }}</div>
+</xf:if>

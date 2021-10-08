@@ -1,0 +1,9 @@
+{
+    "template": "widget_forum_statistics",
+    "description": "Add QA statistics to forum stats widget.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<dd>{$forumStatistics.messages|number}</dd>\n\t\t\t</dl>",
+    "replace": "$0 \n<xf:if is=\"{$forumStatistics.thqaunanswered} && {$xf.options.thqaf_stats.unanswered}\">\n\t<dl class=\"pairs pairs--justified\">\n\t\t<dt>\n\t\t\t<xf:if is=\"$xf.visitor.user_id\">\n\t\t\t\t<a href=\"{{ link('whats-new/posts/', '', { 'thqa_answer_status': 'unanswered' }) }}\">\n\t\t\t</xf:if>\n\t\t\t{{ phrase('thqaforums_unanswered_questions') }}\n\t\t\t<xf:if is=\"$xf.visitor.user_id\">\n\t\t\t\t</a>\n\t\t\t</xf:if>\n\t\t</dt>\n\t\t<dd>{$forumStatistics.thqaunanswered|number}</dd>\n\t</dl>\n</xf:if>\n<xf:if is=\"{$forumStatistics.thqaanswered} && {$xf.options.thqaf_stats.answered}\">\n\t<dl class=\"pairs pairs--justified\">\n\t\t<dt>{{ phrase('thqaforums_answered_questions') }}</dt>\n\t\t<dd>{$forumStatistics.thqaanswered|number}</dd>\n\t</dl>\n</xf:if>"
+}

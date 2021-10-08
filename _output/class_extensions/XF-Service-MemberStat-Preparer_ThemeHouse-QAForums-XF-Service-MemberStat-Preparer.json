@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Service\\MemberStat\\Preparer",
+    "to_class": "ThemeHouse\\QAForums\\XF\\Service\\MemberStat\\Preparer",
+    "execute_order": 10,
+    "active": true
+}

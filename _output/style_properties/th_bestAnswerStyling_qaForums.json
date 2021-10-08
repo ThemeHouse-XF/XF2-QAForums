@@ -1,0 +1,26 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Best answer post styling",
+    "description": "Styling applied to message-inner on the best post",
+    "property_type": "css",
+    "css_components": [
+        "text",
+        "background",
+        "border",
+        "border_radius",
+        "border_width_simple",
+        "border_color_simple",
+        "border_radius_simple",
+        "padding",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "border-top-width": "4px",
+        "border-top-color": "@xf-borderColorFeature"
+    },
+    "display_order": 2500
+}

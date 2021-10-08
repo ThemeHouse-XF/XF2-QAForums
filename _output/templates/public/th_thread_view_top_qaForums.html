@@ -1,0 +1,5 @@
+<xf:if is="$thread.th_is_qa_qaforum && $th_view_qaForum === 'votes'">
+	<xf:macro template="post_macros" name="post"
+			  arg-post="{$thread.FirstPost}"
+			  arg-thread="{$thread}" />
+</xf:if>

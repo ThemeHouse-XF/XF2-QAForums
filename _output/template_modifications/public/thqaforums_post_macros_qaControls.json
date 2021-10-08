@@ -1,0 +1,9 @@
+{
+    "template": "post_macros",
+    "description": "Adds question and answer controls next to user post bit.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<div class=\"message-cell message-cell--user",
+    "replace": "<xf:if is=\"!$depth\">\n\t<xf:macro template=\"thqaforums_post_macros_controls\" name=\"cell_controls\" arg-post=\"{$post}\" arg-thread=\"{$thread}\" />\n</xf:if>\n\n$0"
+}

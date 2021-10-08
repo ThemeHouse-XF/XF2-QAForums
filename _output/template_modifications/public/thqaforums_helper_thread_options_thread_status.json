@@ -1,0 +1,9 @@
+{
+    "template": "helper_thread_options",
+    "description": "Add to thread status options.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$thread.canLockUnlock()\">",
+    "replace": "<xf:if is=\"((!$thread.th_is_qa_qaforum && $thread.canAddQuestionStatus())\n\t\t   || ($thread.th_is_qa_qaforum && $thread.canRemoveQuestionStatus()))\">\n\t<xf:option name=\"th_is_qa_qaforum\" value=\"1\"\n\t\t\t   checked=\"{{ $thread.th_is_qa_qaforum || ($thread.isInsert() && $thread.Forum.th_force_qa_qaforum) }}\"\n\t\t\t   data-question-prefix=\"{$xf.options.th_qaPrefix_qaForums}\"\n\t\t\t   data-answered-prefix=\"{$xf.options.th_answeredPrefix_qaForums}\"\n\t\t\t   data-default-prefix=\"{$thread.Forum.default_prefix_id}\"\n\t\t\t   data-default-status=\"{$thread.Forum.th_force_qa_qaforum}\"\n\t\t\t   label=\"{{ phrase('thqaforums_question') }}\"\n\t\t\t   hint=\"{{ phrase('thqaforums_replies_can_be_voted_up_or_down_and_selected_as_best_answer') }}\">\n\t\t<xf:afterhtml>\n\t\t\t<xf:hiddenval name=\"_xfSet[th_is_qa_qaforum]\" value=\"1\" />\n\t\t</xf:afterhtml>\n\t</xf:option>\n</xf:if>\n\t\t$0"
+}

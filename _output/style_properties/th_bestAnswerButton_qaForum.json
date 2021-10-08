@@ -1,0 +1,18 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Best answer button",
+    "description": "",
+    "property_type": "css",
+    "css_components": [
+        "text"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "font-size": "@xf-fontSizeLargest",
+        "color": "@xf-paletteNeutral2"
+    },
+    "display_order": 10
+}

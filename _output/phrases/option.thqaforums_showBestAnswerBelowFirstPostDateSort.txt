@@ -1,0 +1,1 @@
+Always show best answer under first post when sorting by post date

@@ -1,0 +1,35 @@
+{
+    "forum-th_addQuestionAny.json": {
+        "hash": "32409b4e42b41604026f06a65c4a3408"
+    },
+    "forum-th_addQuestionOwnThread.json": {
+        "hash": "95b817b5a3905d98e69da4ec13037b7e"
+    },
+    "forum-th_bestAnswerAnyThread.json": {
+        "hash": "a09b6152c5d766b9eb4fdb3c0861df95"
+    },
+    "forum-th_bestAnswerOwnPost.json": {
+        "hash": "09afce73f1da078e3cfb60ff96f320d9"
+    },
+    "forum-th_bestAnswerOwnThread.json": {
+        "hash": "6f0754e1041b4008ae05267265a142cd"
+    },
+    "forum-th_removeQuestionAny.json": {
+        "hash": "44da77654f4b59ac579f713718b764d6"
+    },
+    "forum-th_removeQuestionOwn.json": {
+        "hash": "5aab95fc1d86cae8d9ee757fc956d451"
+    },
+    "forum-th_seeBestAnswerAwarder.json": {
+        "hash": "44cfb2ac6e8c25c17f08cc5ba8e2c8a3"
+    },
+    "forum-th_viewVotes.json": {
+        "hash": "e808907c7e9e2f044bd9b3951e4ed8d7"
+    },
+    "forum-th_voteAnswer.json": {
+        "hash": "a361d11d1936e47ec0cd93e8ef691f62"
+    },
+    "forum-th_voteAnswerOwnThread.json": {
+        "hash": "c400f111b51a45d74f8ea31657a54f00"
+    }
+}

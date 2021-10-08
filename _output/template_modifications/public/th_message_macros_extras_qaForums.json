@@ -1,0 +1,9 @@
+{
+    "template": "message_macros",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/\\s*<xf:if is=\".*\\$extras\\.custom_fields.*\">/",
+    "replace": "\n<xf:include template=\"th_message_macros_extras_qaForums\" />\n$0"
+}

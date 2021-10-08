@@ -1,0 +1,1 @@
+This will automatically mark a post as a best answer if it reaches a certain votes threshold. If another answer subsequently receives more votes, that answer will be updated to be the best answer subject to the time limit specified below.

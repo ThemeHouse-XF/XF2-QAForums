@@ -1,0 +1,9 @@
+{
+    "template": "search_form_post",
+    "description": "Add question thread filter",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:macro template=\"search_form_macros\" name=\"order\"",
+    "replace": "<xf:radiorow label=\"{{ phrase('thqaforums_question_status')}}\"\n\tname=\"c[thqastatus]\">\n\t<xf:option checked=\"true\">\n\t\t{{ phrase('all') }}\n\t</xf:option>\n\t<xf:option value=\"unanswered\">\n\t\t{{ phrase('thqaforums_unsolved_questions') }}\n\t</xf:option>\n\t<xf:option value=\"answered\">\n\t\t{{ phrase('thqaforums_solved_questions') }}\n\t</xf:option>\n</xf:radiorow>\n\n$0"
+}

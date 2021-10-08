@@ -1,0 +1,60 @@
+<xf:macro name="cell_controls" arg-post="!" arg-thread="!">
+	<xf:if is="$thread.th_is_qa_qaforum && !$post.isFirstPost()">
+		<xf:if contentcheck="true">
+			<xf:css src="th_qaForums.less" />
+			<div class="message-cell message-cell--qaControls th_qaControls">
+				<xf:contentcheck>
+					<xf:if is="$xf.options.thqaforums_bestAnswerControlLocation === 'cell'">
+						<xf:macro name="best_answer_control" arg-post="{$post}" arg-thread="{$thread}" />
+					</xf:if>
+					<xf:if is="$xf.options.thqaforums_upDownVoteControlsLocation === 'cell'">
+						<span class="js-qaControls">
+							<xf:macro name="vote_controls" arg-post="{$post}" arg-thread="{$thread}" />
+						</span>
+					</xf:if>
+				</xf:contentcheck>
+			</div>
+		</xf:if>
+	</xf:if>
+</xf:macro>
+
+<xf:macro name="external_controls" arg-post="!" arg-thread="!">
+	<xf:if is="$thread.th_is_qa_qaforum && !$post.isFirstPost()">
+		<xf:if contentcheck="true">
+			<xf:css src="th_qaForums.less" />
+			<xf:contentcheck>
+				<xf:if is="$xf.options.thqaforums_bestAnswerControlLocation === 'external'">
+					<xf:macro name="best_answer_control" arg-post="{$post}" arg-thread="{$thread}" arg-class="actionBar-action" />
+				</xf:if>
+				<xf:if is="$xf.options.thqaforums_upDownVoteControlsLocation === 'external'">
+					<span class="actionBar-action js-qaControls">
+						<xf:macro name="vote_controls" arg-post="{$post}" arg-thread="{$thread}" />
+					</span>
+				</xf:if>
+			</xf:contentcheck>
+		</xf:if>
+	</xf:if>
+</xf:macro>
+
+<xf:macro name="best_answer_control" arg-class="" arg-post="!" arg-thread="!">
+	<xf:macro template="th_qaControl_macros_qaForum" name="best_answer_button"
+			  arg-class="{$class}"
+			  arg-canSetBestAnswer="{$post.canMarkAsBestAnswer()}"
+			  arg-post="{$post}"
+			  arg-thread="{$thread}" />
+</xf:macro>
+
+<xf:macro name="vote_controls" arg-post="!" arg-thread="!">
+	<xf:macro template="th_qaControl_macros_qaForum" name="vote_button"
+			  arg-type="up" arg-post="{$post}" arg-thread="{$thread}"
+			  arg-canVote="{{ $post.canVoteAnswer() }}"
+			  arg-currentVote="{{ $post.CurrentVote }}" />
+
+	<xf:macro template="th_qaControl_macros_qaForum" name="vote_points"
+			  arg-post="{$post}" />
+
+	<xf:macro template="th_qaControl_macros_qaForum" name="vote_button"
+			  arg-type="down" arg-post="{$post}" arg-thread="{$thread}"
+			  arg-canVote="{{ $post.canVoteAnswer() }}"
+			  arg-currentVote="{{ $post.CurrentVote }}" />
+</xf:macro>

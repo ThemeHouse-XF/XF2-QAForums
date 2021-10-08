@@ -1,0 +1,15 @@
+{
+    "edit_format": "checkbox",
+    "edit_format_params": "unanswered=Number of unanswered questions\nanswered=Number of answered questions",
+    "data_type": "array",
+    "sub_options": [
+        "unanswered",
+        "answered"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "{\"unanswered\":1,\"answered\":1}",
+    "relations": {
+        "thqaforums": 100
+    }
+}

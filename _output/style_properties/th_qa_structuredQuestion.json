@@ -1,0 +1,13 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Thread list question indicator icon",
+    "description": "",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "string",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": "@fa-var-question",
+    "display_order": 200
+}

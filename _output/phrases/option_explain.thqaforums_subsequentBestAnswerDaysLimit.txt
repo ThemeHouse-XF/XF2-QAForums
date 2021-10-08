@@ -1,0 +1,2 @@
+If a post is already marked as a best answer and another post subsequently receives more votes and is above the automatic best answer threshold, that answer will be updated to be the best answer provided that the thread is not older than the threshold set here.<br />
+<b>Note:</b> If this is set to 0, a post will <i>never</i> be automatically marked as best answer if there is already a best answer. If this is unchecked, automatic best answer checking will <i>always</i> happen regardless of the age of the thread.

@@ -1,0 +1,12 @@
+{
+    "edit_format": "select",
+    "edit_format_params": "votes={{ phrase('th_sort_by_votes_qaForums') }}\ndate={{ phrase('th_sort_by_date_qaForums') }}",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "votes",
+    "relations": {
+        "thqaforums": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "template": "post_macros",
+    "description": "Adds message-inner--bestAnswer class to best answer",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "message-inner",
+    "replace": "$0 {{ ($post.th_best_answer_qaforum ? 'message-inner--bestAnswer' : '') }}"
+}

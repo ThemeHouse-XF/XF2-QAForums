@@ -1,0 +1,26 @@
+{
+    "group_name": "th_qaForums",
+    "title": "Widget counter",
+    "description": "Latest answerers answer count icon.",
+    "property_type": "css",
+    "css_components": [
+        "text",
+        "background",
+        "border",
+        "border_radius",
+        "padding",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "font-size": "10px",
+        "color": "@xf-contentBg",
+        "background-color": "@xf-textColorAttention",
+        "border-radius": "100px",
+        "extra": "width: 20px;\nheight: 20px;\ntext-align: center;\nline-height: 20px;\nmargin-left: -15px;\ndisplay: inline-block;"
+    },
+    "display_order": 111110
+}

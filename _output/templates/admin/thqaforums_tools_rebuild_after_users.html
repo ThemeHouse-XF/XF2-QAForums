@@ -1,0 +1,31 @@
+<xf:form action="{{ link('tools/rebuild') }}" class="block">
+	<div class="block-container">
+		<h2 class="block-header">{{ phrase('th_rebuild_forum_vote_caches_qaForums') }}</h2>
+		<xf:submitrow submit="{{ phrase('rebuild_now') }}" />
+	</div>
+	<xf:hiddenval name="job">ThemeHouse\QAForums:Forum</xf:hiddenval>
+</xf:form>
+
+<xf:form action="{{ link('tools/rebuild') }}" class="block">
+	<div class="block-container">
+		<h2 class="block-header">{{ phrase('thqaforums_rebuild_post_vote_caches') }}</h2>
+		<xf:submitrow submit="{{ phrase('rebuild_now') }}" />
+	</div>
+	<xf:hiddenval name="job">ThemeHouse\QAForums:Post</xf:hiddenval>
+</xf:form>
+
+<xf:form action="{{ link('tools/rebuild') }}" class="block">
+	<div class="block-container">
+		<h2 class="block-header">{{ phrase('th_rebuild_user_vote_caches_qaForums') }}</h2>
+		<xf:checkboxrow>
+			<xf:option name="options[up_votes]" value="1" selected="{{ true }}"
+				label="{{ phrase('thqaforums_rebuild_up_votes') }}" />
+			<xf:option name="options[down_votes]" value="1" selected="{{ true }}"
+				label="{{ phrase('thqaforums_rebuild_down_votes') }}" />
+			<xf:option name="options[best_answers]" value="1" selected="{{ true }}"
+				label="{{ phrase('thqaforums_rebuild_best_answers') }}" />
+		</xf:checkboxrow>
+		<xf:submitrow submit="{{ phrase('rebuild_now') }}" />
+	</div>
+	<xf:hiddenval name="job">ThemeHouse\QAForums:User</xf:hiddenval>
+</xf:form>

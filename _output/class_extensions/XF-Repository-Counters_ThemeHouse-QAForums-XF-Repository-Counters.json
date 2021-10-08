@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Repository\\Counters",
+    "to_class": "ThemeHouse\\QAForums\\XF\\Repository\\Counters",
+    "execute_order": 10,
+    "active": true
+}

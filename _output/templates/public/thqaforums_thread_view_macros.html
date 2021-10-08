@@ -1,0 +1,86 @@
+<xf:macro name="structured_data" arg-thread="!" arg-posts="!">
+	<xf:if is="$thread.th_is_qa_qaforum && $posts is not empty">
+		<xf:set var="$fpSnippet" value="{{ snippet($thread.FirstPost.message, 0, {'stripBbCode': true}) }}" />
+		<xf:if is="$thread.th_answered_qaforum">
+			<xf:set var="$baSnippet" value="{{ snippet($thread.BestAnswer.message, 0, {'stripBbCode': true}) }}" />
+			<xf:set var="$baUrl" value="{{ link('posts', $thread.BestAnswer) }}" />
+		</xf:if>
+		<xf:page option="ldJsonHtml">
+			<xf:if is="$thread.User.avatar_highdpi">
+				<xf:set var="$image">{$thread.User.getAvatarUrl('h', null, true)}</xf:set>
+			<xf:elseif is="$thread.User.avatar_date" />
+				<xf:set var="$image">{$thread.User.getAvatarUrl('l', null, true)}</xf:set>
+			<xf:elseif is="property('publicMetadataLogoUrl')" />
+				<xf:set var="$image">{{ base_url(property('publicMetadataLogoUrl'), true) }}</xf:set>
+			</xf:if>
+			<xf:if is="$image">
+				<script type="application/ld+json">
+				{
+					"@context": "https://schema.org",
+					"@type": "QAPage",
+					"@id": "{{ link('canonical:threads', $thread)|escape('json') }}",
+					"headline": "{$thread.title|escape('json')}",
+					"mainEntity": {
+						"@type": "Question",
+						"name": "{$thread.title|escape('json')}",
+						"text": "{$fpSnippet|escape('json')}",
+						"answerCount": "{$thread.reply_count}",
+						<xf:if is="$thread.th_answered_qaforum">
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "{$baSnippet|escape('json')}",
+							"dateCreated": "{{ date($thread.BestAnswer.post_date, 'Y-m-d')|escape('json') }}",
+							"upvoteCount": {$thread.BestAnswer.th_points_qaforum},
+							"url": "{{ $baUrl|escape('json') }}",
+							"author": {
+								"@type": "Person",
+								"name": "{{ ($thread.BestAnswer.User ? $thread.BestAnswer.User.username : $thread.BestAnswer.username)|escape('json') }}"
+							}
+						},
+						</xf:if>
+						<xf:set var="$maxScore" value="0" />
+						<xf:foreach loop="$posts" value="$post">
+							<xf:if is="$post.th_points_qaforum >= $maxScore">
+								<xf:set var="$suggestedAnswer">
+									<xf:set var="$url" value="{{ link('canonical:posts', $post) }}" />
+									<xf:set var="$snippet" value="{{ snippet($post.message, 0, {'stripBbCode': true}) }}" />
+							{
+								"@type": "Answer",
+								"text": "{$snippet|escape('json')}",
+								"dateCreated": "{{ date($post.post_date, 'Y-m-d')|escape('json') }}",
+								"upvoteCount": {$post.th_points_qaforum},
+								"url": "{{ $url|escape('json') }}",
+								"author": {
+									"@type": "Person",
+									"name": "{{ ($post.User ? $post.User.username : $post.username)|escape('json') }}"
+								}
+							}
+								</xf:set>
+							</xf:if>
+							<xf:set var="$maxScore" value="{$post.th_points_qaforum}" />
+						</xf:foreach>
+						"suggestedAnswer": {$suggestedAnswer|raw},
+						"author": {
+							"@type": "Person",
+							"name": "{{ ($thread.User ? $thread.User.username : $thread.username)|escape('json') }}"
+						},
+						"dateCreated": "{{ date($thread.post_date, 'Y-m-d')|escape('json') }}"
+					},
+					"author": {
+						"@type": "Person",
+						"name": "{{ ($thread.User ? $thread.User.username : $thread.username)|escape('json') }}"
+					},
+					"datePublished": "{{ date($thread.post_date, 'Y-m-d')|escape('json') }}",
+					"dateModified": "{{ date($thread.last_post_date, 'Y-m-d')|escape('json') }}",
+					"image": "{$image|escape('json')}",
+					"interactionStatistic": {
+						"@type": "InteractionCounter",
+						"interactionType": "https://schema.org/ReplyAction",
+						"userInteractionCount": {$thread.reply_count}
+					}
+				}
+				</script>
+			</xf:if>
+		</xf:page>
+	</xf:if>
+</xf:macro>
